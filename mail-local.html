@@ -1,0 +1,579 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title></title>
+<style type="text/css">
+/* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+
+
+
+
+#outlook a {
+	padding: 0;
+} /* Force Outlook to provide a "view in browser" message */
+.ReadMsgBody {
+	width: 100%;
+}
+.ExternalClass {
+	width: 100%;
+} /* Force Hotmail to display emails at full width */
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+	line-height: 100%;
+} /* Force Hotmail to display normal line spacing */
+body, table, td, p, a, li, blockquote {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+} /* Prevent WebKit and Windows mobile changing default text sizes */
+table, td {
+	mso-table-lspace: 0pt;
+	mso-table-rspace: 0pt;
+} /* Remove spacing between tables in Outlook 2007 and up */
+img {
+	-ms-interpolation-mode: bicubic;
+} /* Allow smoother rendering of resized image in Internet Explorer */
+/* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+body {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: 0;
+	height: auto;
+	line-height: 100%;
+	outline: none;
+	text-decoration: none;
+}
+table {
+	border-collapse: collapse !important;
+}
+body, #bodyTable, #bodyCell {
+	height: 100% !important;
+	margin: 0;
+	padding: 0;
+	width: 100% !important;
+	background-color: #F4F4F4 !important;
+}
+/* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
+
+			/* ========== Page Styles ========== */
+
+#bodyCell {
+	padding: 20px;
+}
+#templateContainer {
+	width: 600px;
+}
+/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+body, #bodyTable {
+	/*@editable*/ background-color: #F4F4F4 !important;
+}
+/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+#bodyCell {
+	/*@editable*/ border-top: 4px solid #F4F4F4 !important;
+}
+/**
+			* @tab Page
+			* @section email border
+			* @tip Set the border for your email.
+			*/
+#templateContainer {
+	/*@editable*/ border: 1px solid #BBBBBB;
+}
+/**
+			* @tab Page
+			* @section heading 1
+			* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+			* @style heading 1
+			*/
+h1 {
+	/*@editable*/ color: #202020 !important;
+	display: block;
+	/*@editable*/ font-family: Helvetica;
+	/*@editable*/ font-size: 20px;
+	/*@editable*/ font-style: normal;
+	/*@editable*/ font-weight: bold;
+	/*@editable*/ line-height: 100%;
+	/*@editable*/ letter-spacing: normal;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 15px;
+	margin-left: 0;
+	/*@editable*/ text-align: left;
+}
+/**
+			* @tab Page
+			* @section heading 2
+			* @tip Set the styling for all second-level headings in your emails.
+			* @style heading 2
+			*/
+h2 {
+	/*@editable*/ color: #404040 !important;
+	display: block;
+	/*@editable*/ font-family: Helvetica;
+	/*@editable*/ font-size: 18px;
+	/*@editable*/ font-style: normal;
+	/*@editable*/ font-weight: bold;
+	/*@editable*/ line-height: 100%;
+	/*@editable*/ letter-spacing: normal;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 10px;
+	margin-left: 0;
+	/*@editable*/ text-align: left;
+}
+/**
+			* @tab Page
+			* @section heading 3
+			* @tip Set the styling for all third-level headings in your emails.
+			* @style heading 3
+			*/
+h3 {
+	/*@editable*/ color: #606060 !important;
+	display: block;
+	/*@editable*/ font-family: Helvetica;
+	/*@editable*/ font-size: 16px;
+	/*@editable*/ font-style: italic;
+	/*@editable*/ font-weight: normal;
+	/*@editable*/ line-height: 100%;
+	/*@editable*/ letter-spacing: normal;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 10px;
+	margin-left: 0;
+	/*@editable*/ text-align: left;
+}
+/**
+			* @tab Page
+			* @section heading 4
+			* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+			* @style heading 4
+			*/
+h4 {
+	/*@editable*/ color: #808080 !important;
+	display: block;
+	/*@editable*/ font-family: Helvetica;
+	/*@editable*/ font-size: 14px;
+	/*@editable*/ font-style: italic;
+	/*@editable*/ font-weight: normal;
+	/*@editable*/ line-height: 100%;
+	/*@editable*/ letter-spacing: normal;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 10px;
+	margin-left: 0;
+	/*@editable*/ text-align: left;
+}
+/* ========== Header Styles ========== */
+
+			/**
+			* @tab Header
+			* @section preheader style
+			* @tip Set the background color and bottom border for your email's preheader area.
+			* @theme header
+			*/
+#templatePreheader {
+	/*@editable*/ background-color: #F4F4F4;
+	/*@editable*/ border-bottom: 1px solid #CCCCCC;
+}
+/**
+			* @tab Header
+			* @section preheader text
+			* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+			*/
+.preheaderContent {
+	/*@editable*/ color: #808080;
+	/*@editable*/ font-family: Helvetica;
+	/*@editable*/ font-size: 10px;
+	/*@editable*/ line-height: 125%;
+	/*@editable*/ text-align: left;
+}
+/**
+			* @tab Header
+			* @section preheader link
+			* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+			*/
+.preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */ {
+	/*@editable*/ color: #606060;
+	/*@editable*/ font-weight: normal;
+	/*@editable*/ text-decoration: underline;
+}
+/**
+			* @tab Header
+			* @section header style
+			* @tip Set the background color and borders for your email's header area.
+			* @theme header
+			*/
+#templateHeader {
+	/*@editable*/ background-color: #F4F4F4;
+	/*@editable*/ border-bottom: 1px solid #CCCCCC;
+}
+/**
+			* @tab Header
+			* @section header text
+			* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+			*/
+.headerContent {
+	/*@editable*/ color: #505050;
+	/*@editable*/ font-family: Helvetica;
+	/*@editable*/ font-size: 20px;
+	/*@editable*/ font-weight: bold;
+	/*@editable*/ line-height: 100%;
+	/*@editable*/ padding-top: 0;
+	/*@editable*/ padding-right: 0;
+	/*@editable*/ padding-bottom: 0;
+	/*@editable*/ padding-left: 0;
+	/*@editable*/ text-align: left;
+	/*@editable*/ vertical-align: middle;
+}
+/**
+			* @tab Header
+			* @section header link
+			* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+			*/
+.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */ {
+	/*@editable*/ color: #EB4102;
+	/*@editable*/ font-weight: normal;
+	/*@editable*/ text-decoration: underline;
+}
+#headerImage {
+	height: auto;
+	max-width: 600px;
+}
+/* ========== Body Styles ========== */
+
+			/**
+			* @tab Body
+			* @section body style
+			* @tip Set the background color and borders for your email's body area.
+			*/
+#templateBody {
+	/*@editable*/ background-color: #F4F4F4;
+	/*@editable*/ border-top: 1px solid #FFFFFF;
+	/*@editable*/ border-bottom: 1px solid #CCCCCC;
+}
+/**
+			* @tab Body
+			* @section body text
+			* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+			* @theme main
+			*/
+.bodyContent {
+	/*@editable*/ color: #505050;
+	/*@editable*/ font-family: Helvetica;
+	/*@editable*/ font-size: 15px;
+	/*@editable*/ line-height: 140%;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	/*@editable*/ text-align: left;
+}
+/**
+			* @tab Body
+			* @section body link
+			* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+
+			*/
+.bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */ {
+	/*@editable*/ color: #ae7f29;
+	/*@editable*/ font-weight: normal;
+	/*@editable*/ text-decoration: none;
+}
+.bodyContent img {
+	display: inline;
+	height: auto;
+	max-width: 560px;
+}
+/* ========== Column Styles ========== */
+
+.templateColumnContainer {
+	width: 260px;
+}
+/**
+			* @tab Columns
+			* @section column style
+			* @tip Set the background color and borders for your email's column area.
+			*/
+#templateColumns {
+	/*@editable*/ background-color: #F4F4F4;
+	/*@editable*/ border-top: 1px solid #FFFFFF;
+	/*@editable*/ border-bottom: 1px solid #CCCCCC;
+}
+/**
+			* @tab Columns
+			* @section left column text
+			* @tip Set the styling for your email's left column content text. Choose a size and color that is easy to read.
+			*/
+.leftColumnContent {
+	/*@editable*/ color: #505050;
+	/*@editable*/ font-family: Helvetica;
+	/*@editable*/ font-size: 14px;
+	/*@editable*/ line-height: 150%;
+	padding-top: 0;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	/*@editable*/ text-align: left;
+}
+/**
+			* @tab Columns
+			* @section left column link
+			* @tip Set the styling for your email's left column content links. Choose a color that helps them stand out from your text.
+			*/
+.leftColumnContent a:link, .leftColumnContent a:visited, /* Yahoo! Mail Override */ .leftColumnContent a .yshortcuts /* Yahoo! Mail Override */ {
+	/*@editable*/ color: #505050;
+	/*@editable*/ font-weight: bold;
+	/*@editable*/ text-decoration: underline;
+	/*@editable*/ font-style: normal;
+	/*@editable*/ font-size: 14px;
+}
+/**
+			* @tab Columns
+			* @section right column text
+			* @tip Set the styling for your email's right column content text. Choose a size and color that is easy to read.
+			*/
+.rightColumnContent {
+	/*@editable*/ color: #505050;
+	/*@editable*/ font-family: Helvetica;
+	/*@editable*/ font-size: 14px;
+	/*@editable*/ line-height: 150%;
+	padding-top: 0;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	/*@editable*/ text-align: left;
+}
+/**
+			* @tab Columns
+			* @section right column link
+			* @tip Set the styling for your email's right column content links. Choose a color that helps them stand out from your text.
+			*/
+.rightColumnContent a:link, .rightColumnContent a:visited, /* Yahoo! Mail Override */ .rightColumnContent a .yshortcuts /* Yahoo! Mail Override */ {
+	/*@editable*/ color: #505050;
+	/*@editable*/ font-weight: bold;
+	/*@editable*/ text-decoration: underline;
+	/*@editable*/ font-style: normal;
+	/*@editable*/ font-size: 14px;
+}
+.leftColumnContent img, .rightColumnContent img {
+	display: inline;
+	height: auto;
+	max-width: 260px;
+}
+/* ========== Footer Styles ========== */
+
+			/**
+			* @tab Footer
+			* @section footer style
+			* @tip Set the background color and borders for your email's footer area.
+			* @theme footer
+			*/
+#templateFooter {
+	/*@editable*/ background-color: #F4F4F4;
+	/*@editable*/ border-top: 1px solid #FFFFFF;
+}
+/**
+			* @tab Footer
+			* @section footer text
+			* @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+			* @theme footer
+			*/
+.footerContent {
+	/*@editable*/ color: #ffffff;
+	/*@editable*/ font-family: Helvetica;
+	/*@editable*/ font-size: 12px;
+	/*@editable*/ line-height: 150%;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	/*@editable*/ text-align: left;
+	/*@editable*/ width: 33%;
+}
+/**
+			* @tab Footer
+			* @section footer link
+			* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+			*/
+.footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Override */ {
+	/*@editable*/ color: #ffffff;
+	/*@editable*/ font-weight: normal;
+	/*@editable*/ text-decoration: underline;
+}
+strong {
+	line-height: 120%;
+}
+.footerColumnContainer {
+	width: 33.333333%;
+}
+.footerColumnItem {
+	font-family: Helvetica !important;
+	color: #ffffff !important;
+	font-size: 12px;
+	line-height: 150%;
+}
+.footerColumnItem a {
+	color: #ffffff !important;
+}
+.footerColumnLast {
+	text-align: right;
+}
+</style>
+</head>
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+<center>
+  <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+    <tr>
+      <td align="center" valign="top" id="bodyCell"><!-- BEGIN TEMPLATE // -->
+        
+        <table border="0" cellpadding="20" cellspacing="0" id="templateContainer" style="background-color:#F4F4F4; border:1px solid #BBBBBB">
+          <tr>
+            <td align="center" valign="top"><!-- BEGIN BODY // -->
+              
+              <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody" style="background-color:#F4F4F4; border-bottom: 1px solid #CCCCCC; padding-bottom:30px;">
+                <tr>
+                  <td valign="top" class="bodyContent" mc:edit="body_content"><h1>Здравствуйте!</h1>
+                    <strong> Хотите успеть сделать  запоминающиеся  подарки коллегам и партнерам до Нового Года?  Ювелирные украшения с корпоративной символикой - весь цикл работ от разработки  макета,  до сдачи партии украшений мы сделаем  за  2.5 недели! </strong> <br />
+                    <br />
+                    Что мы можем вам предложить Вам?
+                    Любые ювелирные украшения, работающие в интересах бизнеса и греющие душу! 
+                    С удовольствием сделаем подарок для видавшего всякое, босса или подарки для ваших сотрудников и дорогих партнеров: <br /><br />
+                    <br /></td>
+                </tr>
+              </table>
+              <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateColumns" align="center" style="background-color:#F4F4F4; border-bottom: 1px solid #CCCCCC; text-align:center;">
+                <tr mc:repeatable>
+                  <td align="center" valign="top" class="templateColumnContainer" style="padding-top:20px;"><table border="0" cellpadding="20" cellspacing="0" width="100%">
+                      <tr>
+                        <td class="leftColumnContent" align="center" style="text-align:center"><a href="http://obruchalki.com/corporate/znachki/"> <img src="images/1-item.png" alt="Cуперхит корпоративных заказов - значки из золота и серебра" width="260" height="199" /> </a></td>
+                      </tr>
+                      <tr>
+                        <td valign="top" class="leftColumnContent" mc:edit="left_column_content"><h3 style="text-align:center"><a href="http://obruchalki.com/corporate/znachki/" target="_blank" style="color:#505050;">Cуперхит корпоративных заказов - значки  из золота и серебра</a></h3></td>
+                      </tr>
+                    </table></td>
+                  <td align="center" valign="top" class="templateColumnContainer" style="padding-top:20px;"><table border="0" cellpadding="20" cellspacing="0" width="100%">
+                      <tr>
+                        <td class="rightColumnContent" align="center" style="text-align:center"><a href="http://obruchalki.com/corporate/monety-i-medali/" target="_blank"><img src="images/2-item.png" alt="Подарочные монеты и медали" width="260" height="199" /></a></td>
+                      </tr>
+                      <tr>
+                        <td valign="top" class="rightColumnContent" mc:edit="right_column_content"><h3 style="text-align:center"><a href="http://obruchalki.com/corporate/monety-i-medali/" target="_blank" style="color:#505050;">Подарочные монеты и медали</a></h3></td>
+                      </tr>
+                    </table></td>
+                </tr>
+                <tr mc:repeatable>
+                  <td align="center" valign="top" class="templateColumnContainer" style="padding-top:20px;"><table border="0" cellpadding="20" cellspacing="0" width="100%">
+                      <tr>
+                        <td class="leftColumnContent" align="center" style="text-align:center"><a href="http://obruchalki.com/corporate/ukrasheniya-s-korporativnoy-simvolikoy/" target="_blank"><img src="images/3-item.png" alt="Запонки, зажимы для галстука и денег, и прочие украшения с символами вашей компании" width="260" height="199" /></a></td>
+                      </tr>
+                      <tr>
+                        <td valign="top" class="leftColumnContent" mc:edit="left_column_content"><h3 style="text-align:center"><a href="http://obruchalki.com/corporate/ukrasheniya-s-korporativnoy-simvolikoy/" target="_blank" style="color:#505050;">Запонки, зажимы для галстука и денег, и прочие украшения с символами вашей компании</a></h3></td>
+                      </tr>
+                    </table></td>
+                  <td align="center" valign="top" class="templateColumnContainer" style="padding-top:20px;"><table border="0" cellpadding="20" cellspacing="0" width="100%">
+                      <tr>
+                        <td class="rightColumnContent" align="center" style="text-align:center"><a href="http://obruchalki.com/corporate/eksklyuzivnye-podarki/" target="_blank"><img src="images/3-item.png" alt="Полный эксклюзив - воплотим любую, самую сумасшедшую идею в жизнь" width="260" height="199" /></a></td>
+                      </tr>
+                      <tr>
+                        <td valign="top" class="rightColumnContent" mc:edit="right_column_content"><h3 style="text-align:center"><a href="http://obruchalki.com/corporate/eksklyuzivnye-podarki/" target="_blank" style="color:#505050;">Полный эксклюзив - воплотим любую, самую сумасшедшую идею в жизнь</a></h3></td>
+                      </tr>
+                    </table></td>
+                </tr>
+              </table>
+              <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody" style="padding-top:30px; background-color:#F4F4F4;">
+                <tr>
+                  <td valign="top" class="bodyContent" mc:edit="body_content" style="background-color:#F4F4F4;"><br />
+                    При этом стоимость украшений из драгоценных металлов не дороже бутылки качественного алкоголя, или иных подарков, закупаемых к празднику.  Например, цена серебряного значка, выполненного партией среднего тиража, составляет около 1300 рублей,  а золотые значки с бриллиантами для топ-менеджмента обойдутся в 5 – 7 тысяч рублей. <br />
+                    <br />
+                    Мы работаем с множеством компаний по всей России. Десятки выполненных заказов и тысячи украшений: от простых корпоративных  значков,  до эксклюзивных бизнес подарков. <br />
+                    <br />
+                    <strong>Вам будет с нами удобно и просто. Мы: </strong><br />
+                    <table width="100%" border="0" style="margin-top:10px">
+                      <tr>
+                        <td valign="top"><img src="images/check.gif" width="22" height="16" /></td>
+                        <td><span class="bodyContent1" style="font-weight:bold">Разработаем  дизайн и 3D модель; </span></td>
+                      </tr>
+                      <tr>
+                        <td valign="top"><img src="images/check.gif" width="22" height="16" /></td>
+                        <td><span class="bodyContent1" style="font-weight:bold">Сделаем ваш заказ. Качественно и быстро; </span></td>
+                      </tr>
+                      <tr>
+                        <td valign="top"><img src="images/check.gif" width="22" height="16" /></td>
+                        <td><span class="bodyContent1" style="font-weight:bold">Доставим по Москве и России; </span></td>
+                      </tr>
+                      <tr>
+                        <td valign="top"><img src="images/check.gif" width="22" height="16" /></td>
+                        <td><span class="bodyContent1" style="font-weight:bold">Подарим бюджетную упаковку. Изготовим с партнерами подарочную или премиальную; </span></td>
+                      </tr>
+                      <tr>
+                        <td valign="top"><img src="images/check.gif" width="22" height="16" /></td>
+                        <td><span class="bodyContent1" style="font-weight:bold">Все наши изделия апробированы клеймом Пробирной палаты и имеют гарантию.</span></td>
+                      </tr>
+                    </table>
+                    <br />
+                    <h4 style="color: #ED8A07 !important; line-height:120%; font-weight:bold"> Значок с вашим логотипом на лацкане пиджака вашего партнера  – отличная  реклама и показатель прочности ваших отношений! </h4>
+                    Не готовы разместить заказ сейчас? 
+                    Нужно время для обсуждения  и принятия решения? 
+                    Не за горами праздники 23 февраля и 8 марта, и возможно в Вашей компании, в будущем, 2016-ом году будут события, в которых наша продукция сыграет важную роль. Зафиксируйте за собой <strong>СКИДКУ В 10%</strong> на 3 месяца, отправив нам простое письмо с Вашим именем или названием Вашей компании.  И свяжитесь с нами, когда Вам потребуются наши услуги – скидка будет ждать Вас! <br /></td>
+                </tr>
+                <tr>
+                  <td align="center" style="padding-top:20px; padding-bottom:30px"><a href="mailto:obruchalkin@gmail.com"><img src="images/button-send.gif" width="240" height="42" /></a></td>
+                </tr>
+              </table>
+              
+              <!-- // END BODY --></td>
+          </tr>
+          <tr>
+            <td align="center" valign="top"><!-- BEGIN COLUMNS // --><!-- // END COLUMNS --></td>
+          </tr>
+          <tr>
+            <td align="center" valign="top"><!-- BEGIN FOOTER // -->
+              
+              <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter" style="background-color:#333; color:#ffffff">
+                <tr>
+                  <td valign="top" class="footerColumnContainer"><table border="0" cellpadding="20" cellspacing="0" width="100%" class="footerColumnItem">
+                      <tr>
+                        <td><br />
+                          Украшения,<br />
+                          служащие интересам бизнеса. </td>
+                      </tr>
+                    </table></td>
+                  <td valign="top" class="footerColumnContainer" align="center"><table border="0" cellpadding="20" cellspacing="0" width="100%" class="footerColumnItem">
+                      <tr>
+                        <td align="center"><a href="http://obruchalki.com/corporate/" target="_blank"><img src="images/logo_obruchalki.png" alt="ОБРУЧАЛКИ.РФ" width="180" height="75"/></a></td>
+                      </tr>
+                    </table></td>
+                  <td valign="top" class="footerColumnContainer"><table border="0" cellpadding="20" cellspacing="0" width="100%" class="footerColumnItem">
+                      <tr>
+                        <td class="footerColumnLast" align="right"><br />
+                          <a href="http://obruchalki.com/corporate/" target="_blank" style="color:#ffffff;">www.obruchalki.com</a><br />
+                          <a href="mailto:obruchalkin@gmail.com" style="color:#ffffff;">obruchalkin@gmail.com</a><br />
+                          <strong style="font-size:16px; line-height:180%;">7 (499) 343-30-15</strong></td>
+                      </tr>
+                    </table></td>
+                </tr>
+                <tr>
+                  <td colspan="3" valign="top" class="footerContent" style="padding-top:0; padding-bottom:30px" mc:edit="footer_content01"><span style="font-size:11px; display:block; text-align:center">Вы получили это письмо,  потому что являетесь клиентом нашей компании, или можете им стать)) Мы напоминаем вам о себе, или предлагаем попробовать нас  в качестве партнеров! И успехов в Новом Году!</span></td>
+                </tr>
+              </table>
+              
+              <!-- // END FOOTER --></td>
+          </tr>
+        </table>
+        
+        <!-- // END TEMPLATE --></td>
+    </tr>
+  </table>
+</center>
+</body>
+</html>
